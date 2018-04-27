@@ -1,0 +1,16 @@
+﻿<Window x:Class="SocketDrawer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SocketDrawer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="522.456" Width="691.556">
+    <Grid>
+        <Image x:Name="Image_Output" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="680" Height="480" />
+        <Label x:Name="CenterTemp" Content="-1" HorizontalAlignment="Left" Margin="317,220,0,0" VerticalAlignment="Top" FontSize="20" BorderBrush="White" Foreground="#FFE02222"/>
+        <Label x:Name="Max_temp" Content="-1" HorizontalAlignment="Left" Margin="603,99,0,0" VerticalAlignment="Top" FontSize="20" BorderBrush="White" Foreground="#FFE02222"/>
+        <Label x:Name="Min_Temp" Content="-1" HorizontalAlignment="Left" Margin="603,360,0,0" VerticalAlignment="Top" FontSize="20" BorderBrush="White" Foreground="#FFE02222"/>
+
+    </Grid>
+</Window>
